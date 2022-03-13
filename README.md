@@ -11,3 +11,12 @@ You can Notebook see the Databricks code here:  https://github.com/FourthBrain/d
 ## Example in Github Codespaces
 ![Screen Shot 2022-03-12 at 7 11 31 PM](https://user-images.githubusercontent.com/58792/158039417-e6510971-240c-45d2-984f-cd8ab88a1569.png)
 
+### Curl Example
+```
+curl \
+  -u token:$DATABRICKS_TOKEN \
+  -X POST \
+  -H "Content-Type: application/json; format=pandas-records" \
+  -d@data.json \
+  https://adb-2951765055089996.16.azuredatabricks.net/model/Fake-News/1/invocations
+```
