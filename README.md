@@ -21,4 +21,8 @@ curl \
   https://adb-2951765055089996.16.azuredatabricks.net/model/Fake-News/1/invocations
 ```
 
-## Testing out build
+
+## Deploy Architecture
+
+![IMG_0217](https://user-images.githubusercontent.com/58792/158256886-a0ae8edb-9c69-4ada-b4ca-17a796af6ed7.jpg)
+
