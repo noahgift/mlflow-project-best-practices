@@ -92,3 +92,7 @@ ModelsArtifactRepository(model_uri).download_artifacts(artifact_path="")
 ## Register model for AWS Sagemaker
 
 * [Register model for AWS Sagemaker](https://docs.databricks.com/applications/mlflow/scikit-learn-model-deployment-on-sagemaker.html)
+
+
+![Screen Shot 2022-03-16 at 1 53 31 PM](https://user-images.githubusercontent.com/58792/158655796-06994cd3-c34f-4cbb-aa2b-34dbcb83d9fc.png)
+
