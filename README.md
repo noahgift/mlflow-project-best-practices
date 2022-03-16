@@ -26,3 +26,25 @@ curl \
 
 ![IMG_0217](https://user-images.githubusercontent.com/58792/158256886-a0ae8edb-9c69-4ada-b4ca-17a796af6ed7.jpg)
 
+## Query registered model
+
+* [Azure Databricks Model Serving Architecture](https://docs.microsoft.com/en-us/azure/databricks/applications/mlflow/model-serving)
+
+## Query with Databricks CLI
+
+* [Databricks CLI](https://docs.databricks.com/dev-tools/cli/index.html)
+
+1. Create a databricks config:
+`touch ~/.databrickscfg`
+2.  Put in host and token
+3.  Query jobs
+
+`databricks jobs list --output JSON | jq`
+4.  List clusters
+
+`databricks clusters list --output JSON | jq `
+
+5.  List contents of DBFS
+
+`databricks fs ls dbfs:/`
+
