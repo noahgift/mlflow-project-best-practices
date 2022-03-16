@@ -54,6 +54,8 @@ curl \
 * [Refer to Create or Register Model](https://docs.microsoft.com/en-us/azure/databricks/applications/machine-learning/manage-model-lifecycle/#create-or-register-a-model)
 * [Access tracking server external](https://docs.databricks.com/applications/mlflow/access-hosted-tracking-server.html)
 
+You need to set the tracking URI.
+
 ```bash
 export MLFLOW_TRACKING_URI=databricks
 ```
@@ -72,7 +74,19 @@ for rm in client.list_registered_models():
 * [Download model artifacts](https://docs.databricks.com/applications/mlflow/models.html#download-model-artifacts)
 
 CLI version
+
+```
 mlflow artifacts download --artifact-uri models:/<name>/<version|stage>
+````
+
+To use Python do the following:
+
+```python
+from mlflow.store.artifact.models_artifact_repo import ModelsArtifactRepository
+
+model_uri = MlflowClient.get_model_version_download_uri(model_name, model_version)
+ModelsArtifactRepository(model_uri).download_artifacts(artifact_path="")
+```
 
 
 ## Register model for AWS Sagemaker
