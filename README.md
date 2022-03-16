@@ -48,3 +48,26 @@ curl \
 
 `databricks fs ls dbfs:/`
 
+## Query for Models with API
+
+* [Refer to Quikstart Python](https://docs.databricks.com/applications/mlflow/quick-start-python.html)
+* [Refer to Create or Register Model](https://docs.microsoft.com/en-us/azure/databricks/applications/machine-learning/manage-model-lifecycle/#create-or-register-a-model)
+
+```python
+from pprint import pprint
+from mlflow.tracking import MlflowClient
+client = MlflowClient()
+for rm in client.list_registered_models():
+  pprint(dict(rm), indent=4)
+```
+
+
+## Download Model
+
+* [Download model artifacts](https://docs.databricks.com/applications/mlflow/models.html#download-model-artifacts)
+
+CLI version
+mlflow artifacts download --artifact-uri models:/<name>/<version|stage>
+
+
+
