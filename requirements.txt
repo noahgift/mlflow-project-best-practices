@@ -3,3 +3,5 @@ mlflow==1.24.0
 requests==2.27.1
 black==22.1.0
 pylint==2.12.2
+ipython
+databricks-cli
