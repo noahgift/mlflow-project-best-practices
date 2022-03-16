@@ -45,5 +45,6 @@ def score_model(dataset):
         )
     return response.json()
 
+
 if __name__ == "__main__":
     print(score_model(df))

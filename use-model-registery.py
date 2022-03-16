@@ -1,4 +1,5 @@
 import mlflow
+
 logged_model = f"runs:/ca08436ae38d49b0969daea94103cda5/model"
 
 # Load model as a PyFuncModel.
@@ -26,4 +27,5 @@ data = pd.DataFrame(data=my_data)
 
 # Predict on a Pandas DataFrame.
 import pandas as pd
+
 loaded_model.predict(pd.DataFrame(data))
