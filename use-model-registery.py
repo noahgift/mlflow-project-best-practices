@@ -1,12 +1,10 @@
 import mlflow
-
-logged_model = f"runs:/ca08436ae38d49b0969daea94103cda5/model"
-
-# Load model as a PyFuncModel.
-loaded_model = mlflow.pyfunc.load_model(logged_model)
-
 import pandas as pd
 
+# Load model as a PyFuncModel.
+loaded_model = mlflow.pyfunc.load_model('model')
+
+#create payload
 my_data = {
     "author": {0: "bigjim.com"},
     "published": {0: "2016-10-27T18:05:26.351+03:00"},
@@ -23,9 +21,5 @@ my_data = {
     "hasImage": {0: 1.0},
 }
 data = pd.DataFrame(data=my_data)
-
-
-# Predict on a Pandas DataFrame.
-import pandas as pd
-
-loaded_model.predict(pd.DataFrame(data))
+result = loaded_model.predict(pd.DataFrame(data))
+print(result)
