@@ -1,0 +1,27 @@
+artifact_path: model
+databricks_runtime: 10.3.x-cpu-ml-scala2.12
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.1
+model_uuid: 577a76cecec1442b949cd476a47acc95
+run_id: 51c0348482e042ea8e4b7983ab6bff99
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "author", "type": "string"}, {"name": "published", "type": "string"},
+    {"name": "title", "type": "string"}, {"name": "text", "type": "string"}, {"name":
+    "language", "type": "string"}, {"name": "site_url", "type": "string"}, {"name":
+    "main_img_url", "type": "string"}, {"name": "type", "type": "string"}, {"name":
+    "title_without_stopwords", "type": "string"}, {"name": "text_without_stopwords",
+    "type": "string"}, {"name": "hasImage", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+utc_time_created: '2022-03-12 21:38:00.748047'

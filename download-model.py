@@ -6,4 +6,4 @@ my_model = client.download_artifacts("51c0348482e042ea8e4b7983ab6bff99", path="m
 print(f"Placed model in: {my_model}")
 
 
-#ModelsArtifactRepository(model_uri).download_artifacts(artifact_path="model")
+
