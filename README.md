@@ -54,6 +54,9 @@ curl \
 * [Refer to Create or Register Model](https://docs.microsoft.com/en-us/azure/databricks/applications/machine-learning/manage-model-lifecycle/#create-or-register-a-model)
 * [Access tracking server external](https://docs.databricks.com/applications/mlflow/access-hosted-tracking-server.html)
 
+```bash
+export MLFLOW_TRACKING_URI=databricks
+```
 
 ```python
 from pprint import pprint
