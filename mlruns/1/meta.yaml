@@ -1,0 +1,4 @@
+artifact_location: file:///workspaces/mlflow-project-best-practices/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: /Users/noah.gift@gmail.com/databricks_automl/label_news_articles_csv-2022_03_12-15_38

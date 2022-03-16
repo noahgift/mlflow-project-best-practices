@@ -52,6 +52,8 @@ curl \
 
 * [Refer to Quikstart Python](https://docs.databricks.com/applications/mlflow/quick-start-python.html)
 * [Refer to Create or Register Model](https://docs.microsoft.com/en-us/azure/databricks/applications/machine-learning/manage-model-lifecycle/#create-or-register-a-model)
+* [Access tracking server external](https://docs.databricks.com/applications/mlflow/access-hosted-tracking-server.html)
+
 
 ```python
 from pprint import pprint
@@ -70,4 +72,6 @@ CLI version
 mlflow artifacts download --artifact-uri models:/<name>/<version|stage>
 
 
+## Register model for AWS Sagemaker
 
+* [Register model for AWS Sagemaker](https://docs.databricks.com/applications/mlflow/scikit-learn-model-deployment-on-sagemaker.html)
