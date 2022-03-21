@@ -1,0 +1,12 @@
+mlflow
+boto3==1.16.7
+cffi==1.14.5
+configparser==5.0.1
+dill==0.3.2
+fsspec==0.9.0
+keras==2.7.0
+pandas==1.2.4
+pillow==8.2.0
+scipy==1.6.2
+tensorflow-cpu==2.7.0
+tensorflow==2.7.0
