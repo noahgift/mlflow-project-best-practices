@@ -16,3 +16,4 @@ xgboost==1.5.1
 uvicorn[standard]
 fastapi
 pydantic
+click

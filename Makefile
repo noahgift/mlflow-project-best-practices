@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C predict-fake-news.py main.py
+	pylint --disable=R,C predict-fake-news.py main.py local-cli-predict
 
 all: install lint test
