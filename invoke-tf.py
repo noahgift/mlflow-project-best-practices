@@ -12,10 +12,11 @@ cal_housing = fetch_california_housing()
 # Split 80/20 train-test
 X_train, X_test, y_train, y_test = train_test_split(cal_housing.data,
                                                     cal_housing.target,
-                                                    test_size=0.2)
+                                                    test_size=0.0005)
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
+print(f"Shape of test set: {X_test.shape}")
 
 ## Predict
 keras_model = mlflow.keras.load_model(f"tf-model")
