@@ -101,32 +101,13 @@ ModelsArtifactRepository(model_uri).download_artifacts(artifact_path="")
 
 ![Screen Shot 2022-03-16 at 1 53 31 PM](https://user-images.githubusercontent.com/58792/158655796-06994cd3-c34f-4cbb-aa2b-34dbcb83d9fc.png)
 
+## Goal for today
 
+* Databricks Tensorflow run
+* Debug any cluster 
 
-#!/usr/bin/env python
-import click
-from mlib import predict
+Run it with `mlserve`
 
-#var=
-
-@click.command()
-@click.option(
-    "--weight",
-    prompt="MLB Player Weight",
-    help="Pass in the weight of a MLB player to predict the height",
-)
-def predictcli(weight):
-    """Predicts Height of an MLB player based on weight"""
-
-    result = predict(weight)
-    inches = result["height_inches"]
-    human_readable = result["height_human_readable"]
-    if int(inches) > 72:
-        click.echo(click.style(human_readable, bg="green", fg="white"))
-    else:
-        click.echo(click.style(human_readable, bg="red", fg="white"))
-
-
-if __name__ == "__main__":
-    # pylint: disable=no-value-for-parameter
-    predictcli()
+```
+ mlflow models serve --model-uri  /workspaces/mlflow-project-best-practices/tf-model
+ ```
