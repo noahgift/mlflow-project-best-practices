@@ -104,7 +104,11 @@ ModelsArtifactRepository(model_uri).download_artifacts(artifact_path="")
 ## Goal for today
 
 * Databricks Tensorflow run
-* Debug any cluster 
+* Feature Store
+* Model Serving
+
+### Model Serving
+https://docs.databricks.com/applications/mlflow/model-serving.html
 
 Run it with `mlserve`
 
