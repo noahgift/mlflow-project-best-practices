@@ -3,6 +3,11 @@ An example MLFlow project
 
 [![Python application test with Github Actions](https://github.com/noahgift/mlflow-project-best-practices/actions/workflows/main.yml/badge.svg)](https://github.com/noahgift/mlflow-project-best-practices/actions/workflows/main.yml)
 
+
+## High Level Architecture
+
+![end-to-end-mlops](https://user-images.githubusercontent.com/58792/158695115-a4f8fd97-fbb5-4f9f-b548-ca424636e0ae.png)
+
 You can Notebook see the Databricks code here:  https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/src/week2-mlflow/AutoML/XGBoost-fake-news-automl.py
 
 ## Example in Azure CloudShell
