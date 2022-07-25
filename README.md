@@ -119,7 +119,7 @@ Run it with `mlserve`
  
  ## References
  
- * [Watch Youtube Walkthrough](https://studio.youtube.com/video/PUXhWZQW8BI/edit?c=UCNDfiL0D1LUeKWAkRE1xO5Q)
+ * [Watch Youtube Walkthrough](https://youtube.com/video/PUXhWZQW8BI/edit?c=UCNDfiL0D1LUeKWAkRE1xO5Q)
  * [Watch Walkthrough on O'Reilly](https://learning.oreilly.com/videos/mlops-platforms-from/032232022VIDEOPAIML/)
  
  
