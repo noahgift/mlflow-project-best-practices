@@ -1,20 +1,3 @@
-## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
-
-### 🔥 Hot Course Offers:
-* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
-* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
-* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
-* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
-* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
-
-### 🚀 Level Up Your Career:
-* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
-* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
-* 🏢 Trusted by Fortune 500 Teams
-
-Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
-
-
 # mlflow-project-best-practices
 An example MLFlow project
 
@@ -140,3 +123,11 @@ Run it with `mlserve`
  * [Watch Walkthrough on O'Reilly](https://learning.oreilly.com/videos/mlops-platforms-from/032232022VIDEOPAIML/)
  
  
+
+<!-- funnel:start -->
+---
+
+**Learn MLOps end to end:** [Machine Learning with Databricks and MLflow (Coursera)](https://www.coursera.org/learn/machine-learning-with-databricks-and-mlflow?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=mlflow-project-best-practices) · [MLOps specialization, Duke (Coursera)](https://www.coursera.org/specializations/mlops-machine-learning-duke?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=mlflow-project-best-practices) · [Machine Learning Operations program (edX)](https://www.edx.org/certificates/professional-certificate/ai-machine-learning-operations?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=mlflow-project-best-practices)
+
+More courses from [Noah Gift](https://github.com/noahgift) and Pragmatic AI Labs.
+<!-- funnel:end -->
